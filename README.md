@@ -1,3 +1,9 @@
+# Fork notes
+This fork adds a simple example (Example.ipynb), to demonstrate MMD Rule Induction usage with a simple machine learning pipeline on a sample dataset. The example uses:
+    - The "Default of Credit Card Clients" dataset from [inria-soda/tabular-benchmark on Huggingface](https://huggingface.co/datasets/inria-soda/tabular-benchmark), through `datasets` and `pandas` library.
+    - [RandomForestClassifier from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+
 # MMD: Machine Learning Model Diagnosis and Counterfactual Explanatins for Models of Code
 
 Machine learning models often mispredict, and it is hard to tell when and why. 
